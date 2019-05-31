@@ -1,0 +1,69 @@
+.sect {
+  max-width: 100%;
+  background-size: 100 % 100 %; 
+}
+
+.sect h3, .sect b, form label {
+  color: #e25b27;
+}
+
+.column1-madua {
+  float: left;        
+  margin-top: 100px;
+  margin-left: 5em;
+  color: #e25b27;
+}
+
+.column2-madua {
+  float: right;
+  padding: 10px;
+}
+
+.column3-madua {
+  float: left;
+  width: 50%;
+}
+
+.column4-madua {
+  float: right;
+  border-left: 1px;
+  width:40%;
+}
+
+/* Clear floats after the columns */
+.row-madua:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sub_order {
+  background-color: #ef9b1f;
+  font-size: 1.25em;
+  color: white;
+}
+
+.sub_order:hover {
+  color: white;
+  background-color: #e25b27;
+}
+
+.parentForm {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .column1-madua {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 55px;
+  }
+  
+  .column2-madua img {
+    width:100%;
+  }
+  
+  .column2-madua, .column3-madua, .column4-madua {
+    width: 100%;
+  }
+}
